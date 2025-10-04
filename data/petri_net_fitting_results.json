@@ -1,0 +1,98 @@
+{
+  "model_type": "petri_net_three_phase_intervention_CHIKV",
+  "fitting_date": "2025-10-02 11:42:34",
+  "fitted_parameters": {
+    "beta_0": 2.3559611446475555,
+    "initial_infected": 1,
+    "beta1": 1.332443105965335,
+    "beta2": 1.2817201786559433,
+    "beta3": 0.010000000000028198
+  },
+  "epidemiological_parameters": {
+    "R0_initial": 13.896964264782811,
+    "R_eff1": 7.859600855695161,
+    "R_eff2": 7.5604046190232514,
+    "R_eff3": 0.058986389891845785,
+    "effective_infectious_period": 5.900349650349651
+  },
+  "intervention_timeline": {
+    "phase1_start_day": 23,
+    "phase2_start_day": 28,
+    "phase3_start_day": 32,
+    "phase1_date": "2025-07-09",
+    "phase2_date": "2025-07-14",
+    "phase3_date": "2025-07-18"
+  },
+  "control_effectiveness": {
+    "phase1_reduction_percent": 43.4437571692353,
+    "phase2_reduction_percent": 45.59671828341274,
+    "phase3_reduction_percent": 99.57554478252976
+  },
+  "validation_metrics": {
+    "rmse": 31.049356890370813,
+    "mae": 15.779443222037473,
+    "total_predicted": 7830.823666283781,
+    "total_observed": 4806.0,
+    "relative_error_percent": 62.93848660598794
+  },
+  "r_value_results": {
+    "petri_net_results_with_ci": {
+      "phase_0_initial": {
+        "point_estimates": {
+          "beta": 2.3559611446475555,
+          "r_next_generation_matrix": 13.896964264782811
+        },
+        "confidence_intervals": {
+          "next_generation_matrix": {
+            "estimate": 13.896964264782811,
+            "ci_lower": 12.517267296050017,
+            "ci_upper": 15.36182058727525,
+            "ci_range": "[12.517, 15.362]"
+          }
+        }
+      },
+      "phase_1_intervention": {
+        "point_estimates": {
+          "beta": 1.332443105965335,
+          "r_next_generation_matrix": 7.859600855695161
+        },
+        "confidence_intervals": {
+          "next_generation_matrix": {
+            "estimate": 7.859600855695161,
+            "ci_lower": 7.069890880317758,
+            "ci_upper": 8.603299049496803,
+            "ci_range": "[7.070, 8.603]"
+          }
+        }
+      },
+      "phase_2_intervention": {
+        "point_estimates": {
+          "beta": 1.2817201786559433,
+          "r_next_generation_matrix": 7.5604046190232514
+        },
+        "confidence_intervals": {
+          "next_generation_matrix": {
+            "estimate": 7.5604046190232514,
+            "ci_lower": 6.815950870327771,
+            "ci_upper": 8.259511224104616,
+            "ci_range": "[6.816, 8.260]"
+          }
+        }
+      },
+      "phase_3_intervention": {
+        "point_estimates": {
+          "beta": 0.010000000000028198,
+          "r_next_generation_matrix": 0.058986389891845785
+        },
+        "confidence_intervals": {
+          "next_generation_matrix": {
+            "estimate": 0.058986389891845785,
+            "ci_lower": 0.053218880544049114,
+            "ci_upper": 0.06452030853082659,
+            "ci_range": "[0.053, 0.065]"
+          }
+        }
+      }
+    }
+  }
+}

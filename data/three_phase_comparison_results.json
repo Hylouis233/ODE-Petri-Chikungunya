@@ -1,0 +1,155 @@
+{
+  "analysis_type": "three_phase_intervention_comparison",
+  "data_source": "foshan_chikv_outbreak_2025",
+  "fitting_results": {
+    "ode_fitted": true,
+    "ode_parameters": "[2.48672037 1.32956835 1.28581531 0.01      ]",
+    "ode_r_results": {
+      "three_phase_results_with_ci": {
+        "phase_0_initial": {
+          "point_estimates": {
+            "beta": 2.486720371122022,
+            "results": {
+              "R0": 14.668265736258542
+            },
+            "detailed_results": {
+              "calculation_details": {
+                "beta": 2.486720371122022,
+                "R0": 14.668265736258542,
+                "eigenvalues": [
+                  "(14.668265736258542+0j)",
+                  "0j",
+                  "0j",
+                  "0j"
+                ]
+              }
+            }
+          },
+          "confidence_intervals": {
+            "confidence_level": 0.95,
+            "n_samples": 1000,
+            "R0_ci": {
+              "estimate": 14.668265736258542,
+              "ci_lower": 11.293887651305472,
+              "ci_upper": 20.80998025763624,
+              "ci_range": "[11.294, 20.810]"
+            }
+          }
+        },
+        "phase_1_intervention": {
+          "point_estimates": {
+            "beta": 1.3295683451626923,
+            "results": {
+              "R0": 7.842643679540161
+            },
+            "detailed_results": {
+              "calculation_details": {
+                "beta": 1.3295683451626923,
+                "R0": 7.842643679540161,
+                "eigenvalues": [
+                  "(7.842643679540161+0j)",
+                  "0j",
+                  "0j",
+                  "0j"
+                ]
+              }
+            }
+          },
+          "confidence_intervals": {
+            "confidence_level": 0.95,
+            "n_samples": 1000,
+            "R0_ci": {
+              "estimate": 7.842643679540161,
+              "ci_lower": 6.069579745812935,
+              "ci_upper": 10.924021194935978,
+              "ci_range": "[6.070, 10.924]"
+            }
+          }
+        },
+        "phase_2_intervention": {
+          "point_estimates": {
+            "beta": 1.2858153116574744,
+            "results": {
+              "R0": 7.584560330211912
+            },
+            "detailed_results": {
+              "calculation_details": {
+                "beta": 1.2858153116574744,
+                "R0": 7.584560330211912,
+                "eigenvalues": [
+                  "(7.584560330211912+0j)",
+                  "0j",
+                  "0j",
+                  "0j"
+                ]
+              }
+            }
+          },
+          "confidence_intervals": {
+            "confidence_level": 0.95,
+            "n_samples": 1000,
+            "R0_ci": {
+              "estimate": 7.584560330211912,
+              "ci_lower": 5.853513631368526,
+              "ci_upper": 10.447622813453078,
+              "ci_range": "[5.854, 10.448]"
+            }
+          }
+        },
+        "phase_3_intervention": {
+          "point_estimates": {
+            "beta": 0.010000000000004228,
+            "results": {
+              "R0": 0.05898638989170439
+            },
+            "detailed_results": {
+              "calculation_details": {
+                "beta": 0.010000000000004228,
+                "R0": 0.05898638989170439,
+                "eigenvalues": [
+                  "(0.05898638989170439+0j)",
+                  "0j",
+                  "0j",
+                  "0j"
+                ]
+              }
+            }
+          },
+          "confidence_intervals": {
+            "confidence_level": 0.95,
+            "n_samples": 1000,
+            "R0_ci": {
+              "estimate": 0.05898638989170439,
+              "ci_lower": 0.04635353557891206,
+              "ci_upper": 0.08156300138490745,
+              "ci_range": "[0.046, 0.082]"
+            }
+          }
+        }
+      },
+      "intervention_effectiveness": {
+        "phase_1_reduction": 46.53325880131896,
+        "phase_2_reduction": 48.29272617100461,
+        "phase_3_reduction": 99.59786391280126
+      },
+      "analysis_parameters": {
+        "confidence_level": 0.95,
+        "n_samples": 1000
+      }
+    }
+  },
+  "intervention_analysis": {
+    "reduction_effects": {
+      "phase_1_reduction": 46.53325880131896,
+      "phase_2_reduction": 48.29272617100461,
+      "phase_3_reduction": 99.59786391280126,
+      "cumulative_reduction": 99.59786391280126
+    },
+    "R0_progression": [
+      14.668265736258542,
+      7.842643679540161,
+      7.584560330211912,
+      0.05898638989170439
+    ]
+  }
+}

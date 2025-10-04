@@ -1,0 +1,104 @@
+{
+  "model_type": "three_phase_comparison",
+  "saved_date": "2025-10-02 12:14:03",
+  "fitting_results": {
+    "ode_fitted": true,
+    "petri_fitted": true,
+    "ode_parameters": "[2.48672037 1.32956835 1.28581531 0.01      ]",
+    "petri_parameters": "[2.35596114 1.33244311 1.28172018 0.01      ]"
+  },
+  "r_value_comparisons": {
+    "phase_0_initial": {
+      "beta_comparison": {
+        "ode": 2.486720371122022,
+        "petri": 2.3559611446475555,
+        "difference_percent": 5.258300369955441
+      },
+      "ngm_method": {
+        "ode_r": 14.668265736258542,
+        "petri_r": 13.896964264782811,
+        "difference_percent": 5.258300369955445,
+        "ode_ci_width": 9.51609260633077,
+        "petri_ci_width": 2.607902698873964
+      }
+    },
+    "phase_1_intervention": {
+      "beta_comparison": {
+        "ode": 1.3295683451626923,
+        "petri": 1.332443105965335,
+        "difference_percent": 0.216217602735641
+      },
+      "ngm_method": {
+        "ode_r": 7.842643679540161,
+        "petri_r": 7.859600855695161,
+        "difference_percent": 0.21621760273564705,
+        "ode_ci_width": 4.854441449123043,
+        "petri_ci_width": 1.601961467039012
+      }
+    },
+    "phase_2_intervention": {
+      "beta_comparison": {
+        "ode": 1.2858153116574744,
+        "petri": 1.2817201786559433,
+        "difference_percent": 0.31848531934592295
+      },
+      "ngm_method": {
+        "ode_r": 7.584560330211912,
+        "petri_r": 7.5604046190232514,
+        "difference_percent": 0.31848531934593266,
+        "ode_ci_width": 4.594109182084552,
+        "petri_ci_width": 1.4540642208301655
+      }
+    },
+    "phase_3_intervention": {
+      "beta_comparison": {
+        "ode": 0.010000000000004228,
+        "petri": 0.010000000000028198,
+        "difference_percent": 2.397040899103739e-10
+      },
+      "ngm_method": {
+        "ode_r": 0.05898638989170439,
+        "petri_r": 0.058986389891845785,
+        "difference_percent": 2.3970587340487956e-10,
+        "ode_ci_width": 0.03520946580599539,
+        "petri_ci_width": 0.011465602067932047
+      }
+    }
+  },
+  "intervention_analysis": {
+    "ode_reduction_effects": {
+      "phase_1_reduction": 46.53325880131896,
+      "phase_2_reduction": 48.29272617100461,
+      "phase_3_reduction": 99.59786391280126,
+      "cumulative_reduction": 99.59786391280126
+    },
+    "petri_reduction_effects": {
+      "phase_1_reduction": 43.4437571692353,
+      "phase_2_reduction": 45.59671828341274,
+      "phase_3_reduction": 99.57554478252976,
+      "cumulative_reduction": 99.57554478252976
+    },
+    "ode_r_progression": [
+      14.672519672267176,
+      7.844918120496655,
+      7.586759924552407,
+      0.059003496503521456
+    ],
+    "petri_r_progression": [
+      13.900994516058567,
+      7.861880214393367,
+      7.562597207978687,
+      0.059003496503662885
+    ]
+  },
+  "data_summary": {
+    "analysis_type": "three_phase_intervention_comparison",
+    "data_source": "foshan_chikv_outbreak_2025",
+    "phase_days": {
+      "reff1_start": 23,
+      "reff2_start": 28,
+      "reff3_start": 32
+    },
+    "total_phases": 4
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "analysis_type": "three_phase_intervention_comparison",
+  "data_source": "foshan_chikv_outbreak_2025",
+  "fitting_results": {
+    "ode_fitted": true,
+    "ode_parameters": "[2.48672037 1.32956835 1.28581531 0.01      ]",
+    "ode_r_results": {
+      "three_phase_results_with_ci": {
+        "phase_0_initial": {
+          "point_estimates": {
+            "beta": 2.486720371122022,
+            "results": {
+              "definition_method": 14.672519672267176,
+              "next_generation_matrix": 14.668265736258542
+            },
+            "differences": {
+              "definition_vs_ngm_percent": 0.029000947249810994
+            },
+            "detailed_results": {
+              "definition_method": {
+                "method": "definition_method",
+                "beta": 2.486720371122022,
+                "R0": 14.672519672267176,
+                "components": {
+                  "symptomatic_contribution": 13.042239708681935,
+                  "asymptomatic_contribution": 1.6302799635852419,
+                  "effective_infectious_period": 5.900349650349651
+                },
+                "parameters_used": {
+                  "p": 0.75,
+                  "gamma": 0.143,
+                  "epsilon": 0.375
+                }
+              },
+              "ngm_method": {
+                "method": "next_generation_matrix",
+                "beta": 2.486720371122022,
+                "R0_ngm": 14.668265736258542,
+                "eigenvalues": [
+                  "(14.668265736258542+0j)",
+                  "0j",
+                  "0j",
+                  "0j"
+                ]
+              }
+            }
+          },
+          "confidence_intervals": {
+            "confidence_level": 0.95,
+            "n_samples": 1000,
+            "definition_method": {
+              "estimate": 14.672519672267176,
+              "ci_lower": 11.296361894515677,
+              "ci_upper": 20.815209674099428,
+              "ci_range": "[11.296, 20.815]"
+            },
+            "next_generation_matrix": {
+              "estimate": 14.668265736258542,
+              "ci_lower": 11.293887651305472,
+              "ci_upper": 20.80998025763624,
+              "ci_range": "[11.294, 20.810]"
+            }
+          }
+        },
+        "phase_1_intervention": {
+          "point_estimates": {
+            "beta": 1.3295683451626923,
+            "results": {
+              "definition_method": 7.844918120496655,
+              "next_generation_matrix": 7.842643679540161
+            },
+            "differences": {
+              "definition_vs_ngm_percent": 0.029000947249814044
+            },
+            "detailed_results": {
+              "definition_method": {
+                "method": "definition_method",
+                "beta": 1.3295683451626923,
+                "R0": 7.844918120496655,
+                "components": {
+                  "symptomatic_contribution": 6.973260551552582,
+                  "asymptomatic_contribution": 0.8716575689440728,
+                  "effective_infectious_period": 5.900349650349651
+                },
+                "parameters_used": {
+                  "p": 0.75,
+                  "gamma": 0.143,
+                  "epsilon": 0.375
+                }
+              },
+              "ngm_method": {
+                "method": "next_generation_matrix",
+                "beta": 1.3295683451626923,
+                "R0_ngm": 7.842643679540161,
+                "eigenvalues": [
+                  "(7.842643679540161+0j)",
+                  "0j",
+                  "0j",
+                  "0j"
+                ]
+              }
+            }
+          },
+          "confidence_intervals": {
+            "confidence_level": 0.95,
+            "n_samples": 1000,
+            "definition_method": {
+              "estimate": 7.844918120496655,
+              "ci_lower": 6.071353019356404,
+              "ci_upper": 10.927717582824762,
+              "ci_range": "[6.071, 10.928]"
+            },
+            "next_generation_matrix": {
+              "estimate": 7.842643679540161,
+              "ci_lower": 6.069579745812935,
+              "ci_upper": 10.924021194935978,
+              "ci_range": "[6.070, 10.924]"
+            }
+          }
+        },
+        "phase_2_intervention": {
+          "point_estimates": {
+            "beta": 1.2858153116574744,
+            "results": {
+              "definition_method": 7.586759924552407,
+              "next_generation_matrix": 7.584560330211912
+            },
+            "differences": {
+              "definition_vs_ngm_percent": 0.029000947249814373
+            },
+            "detailed_results": {
+              "definition_method": {
+                "method": "definition_method",
+                "beta": 1.2858153116574744,
+                "R0": 7.586759924552407,
+                "components": {
+                  "symptomatic_contribution": 6.743786599602139,
+                  "asymptomatic_contribution": 0.8429733249502673,
+                  "effective_infectious_period": 5.900349650349651
+                },
+                "parameters_used": {
+                  "p": 0.75,
+                  "gamma": 0.143,
+                  "epsilon": 0.375
+                }
+              },
+              "ngm_method": {
+                "method": "next_generation_matrix",
+                "beta": 1.2858153116574744,
+                "R0_ngm": 7.584560330211912,
+                "eigenvalues": [
+                  "(7.584560330211912+0j)",
+                  "0j",
+                  "0j",
+                  "0j"
+                ]
+              }
+            }
+          },
+          "confidence_intervals": {
+            "confidence_level": 0.95,
+            "n_samples": 1000,
+            "definition_method": {
+              "estimate": 7.586759924552407,
+              "ci_lower": 5.854788884976218,
+              "ci_upper": 10.45120363677803,
+              "ci_range": "[5.855, 10.451]"
+            },
+            "next_generation_matrix": {
+              "estimate": 7.584560330211912,
+              "ci_lower": 5.853513631368526,
+              "ci_upper": 10.447622813453078,
+              "ci_range": "[5.854, 10.448]"
+            }
+          }
+        },
+        "phase_3_intervention": {
+          "point_estimates": {
+            "beta": 0.010000000000004228,
+            "results": {
+              "definition_method": 0.059003496503521456,
+              "next_generation_matrix": 0.05898638989170439
+            },
+            "differences": {
+              "definition_vs_ngm_percent": 0.02900094724981794
+            },
+            "detailed_results": {
+              "definition_method": {
+                "method": "definition_method",
+                "beta": 0.010000000000004228,
+                "R0": 0.059003496503521456,
+                "components": {
+                  "symptomatic_contribution": 0.052447552447574625,
+                  "asymptomatic_contribution": 0.006555944055946828,
+                  "effective_infectious_period": 5.900349650349651
+                },
+                "parameters_used": {
+                  "p": 0.75,
+                  "gamma": 0.143,
+                  "epsilon": 0.375
+                }
+              },
+              "ngm_method": {
+                "method": "next_generation_matrix",
+                "beta": 0.010000000000004228,
+                "R0_ngm": 0.05898638989170439,
+                "eigenvalues": [
+                  "(0.05898638989170439+0j)",
+                  "0j",
+                  "0j",
+                  "0j"
+                ]
+              }
+            }
+          },
+          "confidence_intervals": {
+            "confidence_level": 0.95,
+            "n_samples": 1000,
+            "definition_method": {
+              "estimate": 0.059003496503521456,
+              "ci_lower": 0.046367817595105026,
+              "ci_upper": 0.08158790278348783,
+              "ci_range": "[0.046, 0.082]"
+            },
+            "next_generation_matrix": {
+              "estimate": 0.05898638989170439,
+              "ci_lower": 0.04635353557891206,
+              "ci_upper": 0.08156300138490745,
+              "ci_range": "[0.046, 0.082]"
+            }
+          }
+        }
+      },
+      "intervention_effectiveness": {
+        "phase_1_reduction": 46.53325880131896,
+        "phase_2_reduction": 48.29272617100461,
+        "phase_3_reduction": 99.59786391280126
+      },
+      "analysis_parameters": {
+        "confidence_level": 0.95,
+        "n_samples": 1000
+      }
+    }
+  },
+  "intervention_analysis": {
+    "ode_reduction_effects": {
+      "phase_1_reduction": 46.53325880131896,
+      "phase_2_reduction": 48.29272617100461,
+      "phase_3_reduction": 99.59786391280126,
+      "cumulative_reduction": 99.59786391280126
+    },
+    "ode_r_progression": [
+      14.672519672267176,
+      7.844918120496655,
+      7.586759924552407,
+      0.059003496503521456
+    ]
+  }
+}

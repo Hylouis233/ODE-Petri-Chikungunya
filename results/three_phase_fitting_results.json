@@ -1,0 +1,36 @@
+{
+  "model_type": "three_phase_intervention_CHIKV",
+  "fitting_date": "2025-09-16 17:01:58",
+  "fitted_parameters": {
+    "beta_0": 2.486720371122022,
+    "initial_infected": 1,
+    "beta1": 1.3295683451626923,
+    "beta2": 1.2858153116574744,
+    "beta3": 0.010000000000004228
+  },
+  "epidemiological_parameters": {
+    "R0_initial": 14.672519672267176,
+    "R_eff1": 7.844918120496655,
+    "R_eff2": 7.586759924552407,
+    "R_eff3": 0.059003496503521456,
+    "effective_infectious_period": 5.900349650349651
+  },
+  "intervention_timeline": {
+    "phase1_start_day": 23,
+    "phase2_start_day": 28,
+    "phase3_start_day": 32,
+    "phase1_date": "2025-07-09",
+    "phase2_date": "2025-07-14",
+    "phase3_date": "2025-07-18"
+  },
+  "control_effectiveness": {
+    "phase1_reduction_percent": 46.53325880131896,
+    "phase2_reduction_percent": 48.29272617100461,
+    "phase3_reduction_percent": 99.59786391280126
+  },
+  "validation_metrics": {
+    "rmse": 30.983688420989388,
+    "total_predicted": 7824.967072145382,
+    "total_observed": 4806.0
+  }
+}
